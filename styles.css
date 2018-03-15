@@ -82,7 +82,7 @@ li a::before {
   display: block;
   height: 8px;
   width: 100%;
-  background-color: lightblue;
+  background-color: #1da9f9;
   bottom: 3;
   top: 2;
   width: 0%;
