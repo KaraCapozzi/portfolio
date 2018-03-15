@@ -1,0 +1,174 @@
+* {
+  margin: 0px;
+  line-height: 1.5;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+/*main {
+  max-width: 800px;
+
+  /* Set margin to be automatically calculated on all sides */
+
+  /* Set padding to be 0 pixels top & bottom, and 20 pixels left & right */
+/*}*/
+
+.intro {
+  text-align: center;
+}
+
+h1 {
+  top: 15px;
+  left: 25px;
+  text-align: left;
+  max-width: 100%;
+  color: black;
+  font-size: 32px;
+  font-weight: bold;
+  position: relative;
+}
+
+h2 {
+  color: #2b7cff;
+  padding-top: 100px;
+  font-size: 2em;
+  text-align: center;
+}
+
+/*img {
+  max-width: 100%;
+}*/
+
+
+.paint {
+  max-width: 30%;
+  position: absolute;
+}
+
+.drawing {
+  max-width: 20%;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+.project {
+  padding-top: 10px;
+  z-index: 200px;
+  text-align: center;
+}
+li {
+  list-style: none;
+}
+
+nav {
+  padding: 5px 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 8px;
+}
+
+.nav-bar {
+  float: right;
+  padding: 5px 5px;
+}
+
+li a::before {
+  content: '';
+  display: block;
+  height: 8px;
+  width: 100%;
+  background-color: lightblue;
+  bottom: 3;
+  top: 2;
+  width: 0%;
+  transition: all ease-in-out 300ms;
+}
+
+li a:hover::before {
+  width: 100%;
+}
+
+li {
+  display: inline-block;
+  margin-left: 30px;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  padding-right: 10px;
+}
+
+p {
+  text-align: left;
+  padding: 10px 250px;
+}
+.project {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  /*letter-spacing: .5px;*/
+}
+
+.myButton {
+  -moz-box-shadow: 0px 10px 14px -7px #276873;
+  -webkit-box-shadow: 0px 10px 14px -7px #276873;
+  box-shadow: 0px 10px 14px -7px #276873;
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #599bb3), color-stop(1, #408c99));
+  background:-moz-linear-gradient(top, #599bb3 5%, #408c99 100%);
+  background:-webkit-linear-gradient(top, #599bb3 5%, #408c99 100%);
+  background:-o-linear-gradient(top, #599bb3 5%, #408c99 100%);
+  background:-ms-linear-gradient(top, #599bb3 5%, #408c99 100%);
+  background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#599bb3', endColorstr='#408c99',GradientType=0);
+  background-color: black;
+  -moz-border-radius:13px;
+  -webkit-border-radius:13px;
+  border-radius:13px;
+  border:1px solid #29668f;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-size:20px;
+  font-weight:bold;
+  padding:22px 50px;
+  text-decoration:none;
+  text-shadow:0px 1px 34px #3d768a;
+}
+
+}
+.myButton:active {
+  position:relative;
+  top:1px;
+}
+
+.button {
+  text-align: center;
+}
+
+
+footer {
+  color: white;
+  background-color: black;
+  padding: 20px 20px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+@media (max-width: 600px) {
+
+  body {
+    /* Set the background color to be purple */
+    background-color: #f7def5;
+    /* Set the font color to be white */
+    color: white;
+  }
+
+}
